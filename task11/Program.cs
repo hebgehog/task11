@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Security.Cryptography;
 using System.IO;
@@ -49,7 +47,6 @@ namespace task11UP
             summafromk.Clear();
             return Convert.ToBase64String(TextBytes);
         }
-
         public static string DeShifr(string criptText, string key,//метод дешифрования
                string prog = "programming", string cryptographic = "SHA1",
                int keyI = 2, string vec = "a6doPuTitLz1hYe#",
